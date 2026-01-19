@@ -191,10 +191,6 @@ Outputs will be saved under:
 
 > Note: The script uses `matplotlib.use("Agg")`, so plots are saved to files (no GUI window).
 
-
----
-
-
 ---
 
 ### 🧑‍💻 Author 
