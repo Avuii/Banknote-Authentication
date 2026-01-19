@@ -4,7 +4,7 @@
 - ✅ **Manual Logistic Regression (from scratch)** trained with **batch Gradient Descent**
 - ✅ **scikit-learn `LogisticRegression`** as a reference baseline
 
-📄 **Report (PDF):** [Report.pdf](ZMO_StanczykK_z33.pdf)  
+📄 **Report (PDF):** [Report.pdf](Report.pdf)  
 📊 **Outputs:** plots + `summary.json` saved automatically under `runs/...`
 
 ---
