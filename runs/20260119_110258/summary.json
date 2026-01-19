@@ -1,0 +1,106 @@
+{
+  "data": {
+    "source_url": "https://archive.ics.uci.edu/ml/machine-learning-databases/00267/data_banknote_authentication.txt",
+    "local_file": "data_banknote_authentication.txt",
+    "n_samples": 1372,
+    "n_features": 4
+  },
+  "params": {
+    "test_size": 0.2,
+    "seed": 123,
+    "lr": 0.05,
+    "epochs": 2000,
+    "l2": 0.0,
+    "init": "zeros",
+    "threshold": 0.5,
+    "sklearn_C_for_weights": 1000000.0
+  },
+  "manual": {
+    "metrics_train": {
+      "accuracy": 0.9744758432087511,
+      "precision": 0.9509803921568627,
+      "recall": 0.9938524590163934,
+      "f1": 0.9719438877755511,
+      "log_loss": 0.08345677748869194,
+      "roc_auc": 0.9991890764219763
+    },
+    "metrics_test": {
+      "accuracy": 0.9927272727272727,
+      "precision": 0.9838709677419355,
+      "recall": 1.0,
+      "f1": 0.991869918699187,
+      "log_loss": 0.07247761859282709,
+      "roc_auc": 0.9997321332904746
+    },
+    "weights": [
+      -0.7347276515118444,
+      -3.4972768874364237,
+      -2.952029699002507,
+      -2.7439418302301806,
+      0.2142573760432057
+    ],
+    "confusion_matrix_test": [
+      [
+        151,
+        2
+      ],
+      [
+        0,
+        122
+      ]
+    ]
+  },
+  "sklearn_proba": {
+    "metrics_train": {
+      "accuracy": 0.9790337283500455,
+      "precision": 0.9585798816568047,
+      "recall": 0.9959016393442623,
+      "f1": 0.9768844221105528,
+      "log_loss": 0.05058235655602188,
+      "roc_auc": 0.9996332337344208
+    },
+    "metrics_test": {
+      "accuracy": 0.9927272727272727,
+      "precision": 0.9838709677419355,
+      "recall": 1.0,
+      "f1": 0.991869918699187,
+      "log_loss": 0.04089507112860211,
+      "roc_auc": 0.9998928533161898
+    },
+    "coef": [
+      -4.64762378538425,
+      -4.77837452751648,
+      -4.3292979578481345,
+      0.15633152255706464
+    ],
+    "intercept": [
+      -1.4485781560742164
+    ],
+    "confusion_matrix_test": [
+      [
+        151,
+        2
+      ],
+      [
+        0,
+        122
+      ]
+    ]
+  },
+  "sklearn_weights": {
+    "coef": [
+      -21.276562084602517,
+      -24.140130617252474,
+      -21.98926907397645,
+      -1.4815410406010867
+    ],
+    "intercept": [
+      -10.195950491962414
+    ]
+  },
+  "proba_compare_test": {
+    "proba_corr": 0.9971173811528662,
+    "proba_mae": 0.029388053575034934,
+    "proba_rmse": 0.04275558378439598
+  }
+}
